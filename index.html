@@ -36,13 +36,13 @@
           
 
           <div class="input-wrapper">
-            <label for="input-name">Email <span>(digite um email válido)</span></label>
-            <input name="input-name" type="text">
+            <label for="input-email">Email <span>(digite um email válido)</span></label>
+            <input name="input-email" type="email">
           </div>
 
           <div class="input-wrapper">
-            <label for="input-name">Senha <span>(mínimo de 6 caracteres)</span></label>
-            <input name="input-name" type="text">
+            <label for="input-password">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input name="input-password" type="password">
           </div>
         </div>
       </fieldset>
@@ -60,26 +60,52 @@
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Seus horários disponíveis</legend>
-          <div class="input-wrapper">
-            <div class="sub-legend">
-              Primeira mentoria
-            </div>
-            <label for="input-name">Primeira mentoria<span>(só o primeiro nome)</span></label>
-            <input name="input-name" type="text">
+          <div class="sub-legend">
+            Primeira mentoria
           </div>
-
-
-          <div class="input-wrapper">
-            <div class="sub-legend">
-              Segunda mentoria
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="input-data-01">Data<span>(DD/MM/AAAA)</span></label>
+              <input name="input-data-01" type="date">
             </div>
-            <label for="input-name">Segunda mentoria<span>(só o primeiro nome)</span></label>
-            <input name="input-name" type="text">
+
+            <div class="input-wrapper">
+              <label for="input-begin-time-01">Das<span>(DD/MM/AAAA)</span></label>
+              <input name="input-begin-time-01" type="time">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-end-time-01">Até<span>(DD/MM/AAAA)</span></label>
+              <input name="input-end-time-01" type="time">
+            </div>
+
           </div>
+        
+
+         <div class="sub-legend">
+            Segunda mentoria
+         </div>
+
+          <div class="col-3">
+            <div class="input-wrapper">
+             <label for="input-data-02">Data<span>(DD/MM/AAAA)</span></label>
+             <input name="input-name" type="date">
+            </div>
+
+            <div class="input-wrapper">
+             <label for="input-begin-time-02">Das<span>(DD/MM/AAAA)</span></label>
+             <input name="input-begin-time-02" type="time">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-end-time-02">Até<span>(DD/MM/AAAA)</span></label>
+              <input name="input-end-time-02" type="time">
+            </div>
+          </div>
+      
+          
         </div>
       </fieldset>
-
-
 
     </form>
     
